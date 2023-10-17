@@ -1,0 +1,296 @@
+PS C:\Users\sayan\Project\tbs\tbd-home-page\tbs-main-website-v2> npm install -g
+npm WARN config includes both --global and --audit, which is currently unsupported.
+
+added 1 package, and audited 3 packages in 1s
+
+found 0 vulnerabilities
+PS C:\Users\sayan\Project\tbs\tbd-home-page\tbs-main-website-v2> npm install
+npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm WARN deprecated rollup-plugin-terser@7.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+npm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm WARN deprecated workbox-cacheable-response@6.6.0: workbox-background-sync@6.6.0
+npm WARN deprecated emailjs-com@3.2.0: The SDK name changed to @emailjs/browser
+npm WARN deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+
+added 1563 packages, and audited 1564 packages in 3m
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\sayan\Project\tbs\tbd-home-page\tbs-main-website-v2> npm run build
+
+> doob@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+One of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it may break at any time.
+
+babel-preset-react-app is part of the create-react-app project, which
+is not maintianed anymore. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.
+
+Compiled with warnings.
+
+[eslint]
+src\common\footer\Copyright.js
+  Line 11:37:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 12:37:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\common\footer\CopyrightTwo.js
+  Line 13:37:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 14:37:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\common\footer\FooterFour.js
+  Line 3:8:     'CalltoActionSeven' is defined but never used                                                                                             
+                                                                                                                                                          
+                                                               no-unused-vars
+  Line 9:7:     'footerIntem' is assigned a value but never used                                                                                          
+                                                                                                                                                          
+                                                               no-unused-vars
+  Line 115:45:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 116:45:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\common\footer\FooterTwo.js
+  Line 8:7:  'footerIntem' is assigned a value but never used  no-unused-vars
+
+src\common\header\HeaderOne.js
+  Line 22:13:  'clientHeight' is assigned a value but never used                                                                                          
+                                            no-unused-vars
+  Line 24:11:  'checkChange' is assigned a value but never used                                                                                           
+                                            no-unused-vars
+  Line 48:37:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\common\header\HeaderTopBar.js
+  Line 19:53:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\common\header\HeaderTopNews.js
+  Line 2:10:  'FiX' is defined but never used                no-unused-vars
+  Line 2:15:  'FiArrowRight' is defined but never used       no-unused-vars
+  Line 6:13:  'deactive' is assigned a value but never used  no-unused-vars
+  Line 6:23:  'setClass' is assigned a value but never used  no-unused-vars
+
+src\common\header\HeaderTwo.js
+  Line 22:13:  'clientHeight' is assigned a value but never used                                                                                          
+                                            no-unused-vars
+  Line 24:11:  'checkChange' is assigned a value but never used                                                                                           
+                                            no-unused-vars
+  Line 52:37:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\common\header\MobileMenu.js
+  Line 22:15:  'i' is already defined  no-redeclare
+
+src\components\blog\BlogDetailsContent.js
+  Line 3:8:  'SideCategories' is defined but never used  no-unused-vars
+
+src\components\blog\itemProp\BlogList.js
+  Line 8:11:   'cate' is assigned a value but never used                                                                                                  
+                                                      no-unused-vars
+  Line 20:25:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+
+src\components\blog\itemProp\BlogListTwo.js
+  Line 7:11:   'cate' is assigned a value but never used                                                                                                  
+                                                      no-unused-vars
+  Line 18:25:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+
+src\components\blog\itemProp\BlogProp.js
+  Line 20:8:  React Hook useEffect has missing dependencies: 'dataVisibleCount' and 'getAllItems'. Either include them or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setVisibleItems' needs the current value of 'dataVisibleCount'  react-hooks/exhaustive-deps
+
+src\components\blog\itemProp\BlogPropTwo.js
+  Line 20:8:  React Hook useEffect has missing dependencies: 'dataVisibleCount' and 'getAllItems'. Either include them or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setVisibleItems' needs the current value of 'dataVisibleCount'  react-hooks/exhaustive-deps
+
+src\elements\about\AboutFive.js
+  Line 28:45:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\elements\about\AboutFour.js
+  Line 53:37:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\elements\about\AboutOne.js
+  Line 34:37:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\elements\about\AboutThree.js
+  Line 2:9:   'Link' is defined but never used             no-unused-vars
+  Line 3:10:  'FiArrowRight' is defined but never used     no-unused-vars
+  Line 5:8:   'ScrollAnimation' is defined but never used  no-unused-vars
+
+src\elements\brand\BrandFour.js
+  Line 32:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 32:33:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop                                                                                                      
+                                                              jsx-a11y/img-redundant-alt
+
+src\elements\brand\BrandOne.js
+  Line 35:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 35:33:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop                                                                                                      
+                                                              jsx-a11y/img-redundant-alt
+
+src\elements\brand\BrandThree.js
+  Line 39:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 39:33:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop                                                                                                      
+                                                              jsx-a11y/img-redundant-alt
+
+src\elements\brand\BrandTwo.js
+  Line 65:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 65:33:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop                                                                                                      
+                                                              jsx-a11y/img-redundant-alt
+
+src\elements\calltoaction\CalltoActionEight.js
+  Line 20:37:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\elements\calltoaction\CalltoActionFive.js
+  Line 37:41:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\elements\calltoaction\CalltoActionFour.js
+  Line 22:29:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\elements\calltoaction\CalltoActionOne.js
+  Line 37:41:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\elements\calltoaction\CalltoActionSeven.js
+  Line 39:33:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\elements\calltoaction\CalltoActionSix.js
+  Line 21:29:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\elements\calltoaction\CalltoActionThree.js
+  Line 24:29:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\elements\calltoaction\CalltoActionTwo.js
+  Line 21:37:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\elements\counterup\CounterUpOne.js
+  Line 4:8:  'ScrollAnimation' is defined but never used  no-unused-vars
+
+src\elements\gallery\GalleryOne.js
+  Line 28:17:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+
+src\elements\portfolio\PortfolioDetailsContent.js
+  Line 13:37:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+  Line 50:41:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+  Line 55:41:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+  Line 60:41:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+
+src\elements\portfolio\PortfolioOne.js
+  Line 38:8:  React Hook useEffect has missing dependencies: 'dataVisibleCount' and 'getAllItems'. Either include them or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setVisibleItems' needs the current value of 'dataVisibleCount'  react-hooks/exhaustive-deps
+
+src\elements\progressbar\CircleProgress.js
+  Line 4:5:  'CircularProgressbarWithChildren' is defined but never used  no-unused-vars
+  Line 5:5:  'buildStyles' is defined but never used                      no-unused-vars
+
+src\elements\progressbar\CircleProgressTwo.js
+  Line 4:5:  'CircularProgressbarWithChildren' is defined but never used  no-unused-vars
+  Line 5:5:  'buildStyles' is defined but never used                      no-unused-vars
+
+src\elements\service\Service.js
+  Line 4:8:  'HeaderOne' is defined but never used  no-unused-vars
+  Line 5:8:  'FooterOne' is defined but never used  no-unused-vars
+
+src\elements\tab\TabThree.js
+  Line 88:73:   The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 128:73:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\elements\team\TeamFour.js
+  Line 3:9:  'Link' is defined but never used  no-unused-vars
+
+src\elements\team\TeamOne.js
+  Line 3:9:  'Link' is defined but never used  no-unused-vars
+
+src\elements\team\TeamThree.js
+  Line 2:10:  'FiFacebook' is defined but never used   no-unused-vars
+  Line 2:22:  'FiTwitter' is defined but never used    no-unused-vars
+  Line 2:33:  'FiInstagram' is defined but never used  no-unused-vars
+  Line 2:46:  'FiLinkedin' is defined but never used   no-unused-vars
+  Line 3:9:   'Link' is defined but never used         no-unused-vars
+
+src\elements\team\TeamTwo.js
+  Line 3:9:  'Link' is defined but never used  no-unused-vars
+
+src\elements\video\VideoOne.js
+  Line 19:25:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+  Line 31:25:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+
+src\elements\video\VideoTwo.js
+  Line 30:25:  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+
+src\pages\Business.js
+  Line 3:9:    'Link' is defined but never used                                                                                                           
+                                            no-unused-vars
+  Line 37:41:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\pages\BusinessConsulting2.js
+  Line 55:41:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\pages\Company.js
+  Line 43:41:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\pages\Corporate.js
+  Line 3:9:  'Link' is defined but never used  no-unused-vars
+
+src\pages\CreativePortfolio.js
+  Line 3:9:    'Link' is defined but never used                                                                                                           
+                                            no-unused-vars
+  Line 4:24:   'FiCheck' is defined but never used                                                                                                        
+                                            no-unused-vars
+  Line 34:41:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\pages\DigitalAgency.js
+  Line 3:9:    'Link' is defined but never used                                                                                                           
+                                            no-unused-vars
+  Line 60:53:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\pages\EventConference.js
+  Line 17:9:   'Link' is defined but never used                                                                                                           
+                                            no-unused-vars
+  Line 55:41:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\pages\Finance.js
+  Line 2:9:    'Link' is defined but never used                                                                                                           
+                                            no-unused-vars
+  Line 39:41:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\pages\HomeDefault.js
+  Line 52:41:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\pages\PersonalPortfolio.js
+  Line 3:10:  'FiArrowRight' is defined but never used  no-unused-vars
+  Line 3:24:  'FiCheck' is defined but never used       no-unused-vars
+
+src\pages\SeoAgency.js
+  Line 34:41:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\pages\Startup.js
+  Line 50:53:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\pages\WebAgency.js
+  Line 45:49:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations                                                                                                                
+                                                              react/jsx-no-target-blank
+  Line 46:49:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+
+  166.46 kB  build\static\js\main.39df67d1.js
+  75.84 kB   build\static\css\main.44e29f69.css
+  1.67 kB    build\static\js\787.3dfd9781.chunk.js
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment

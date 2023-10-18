@@ -2,7 +2,7 @@ import React from 'react';
 import SEO from "../common/SEO";
 import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import HeaderOne from '../common/header/HeaderOne';
 import CounterUpFour from '../elements/counterup/CounterUpFour';
 import ServiceOne from '../elements/service/ServiceOne';
@@ -22,7 +22,8 @@ const BannerData = [
 ]
 
 
-const WebAgency = () => {
+const WebAgency = () =>
+{
     return (
         <>
             <SEO title="Web Agency" />
@@ -30,19 +31,19 @@ const WebAgency = () => {
                 <HeaderOne btnStyle="btn-small" HeaderSTyle="header-not-transparent" />
 
 
-                {/* Start Slider Area  */}
+                {/* Start Slider Area  */ }
                 <div className="slider-area slider-style-8 height-650">
-                    {BannerData.map((data, index) => (
-                        <div key={index} className="single-slide">
+                    { BannerData.map( ( data, index ) => (
+                        <div key={ index } className="single-slide">
                             <div className="container">
                                 <div className="row align-items-center">
                                     <div className="col-lg-12">
                                         <div className="inner text-center">
                                             <span className="subtitle theme-gradient">Hello! This is WebAgency</span>
-                                            <h1 className="title" dangerouslySetInnerHTML={{__html: data.title}}></h1>
-                                            <p className="description" dangerouslySetInnerHTML={{__html: data.description}}></p>
+                                            <h1 className="title" dangerouslySetInnerHTML={ { __html: data.title } }></h1>
+                                            <p className="description" dangerouslySetInnerHTML={ { __html: data.description } }></p>
                                             <div className="button-group mt--30">
-                                                <a className="btn-default btn-large round" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Explore Now</a>
+                                                <a className="btn-default btn-large round" target="_blank" href="https://thebengalstudio.com">Explore Now</a>
                                                 <a className="btn-default btn-border btn-large round" href="#">Contact Us</a>
                                             </div>
                                         </div>
@@ -50,12 +51,12 @@ const WebAgency = () => {
                                 </div>
                             </div>
                         </div>
-                    ))}
+                    ) ) }
                 </div>
-                {/* End Slider Area  */}
+                {/* End Slider Area  */ }
 
 
-                {/* Start Counterup Area  */}
+                {/* Start Counterup Area  */ }
                 <div className="our-counterup-area">
                     <div className="container">
                         <div className="row">
@@ -63,22 +64,22 @@ const WebAgency = () => {
                                 <div className="thumbnail">
                                     <img className="radius w-100" src="./images/bg/bg-image-21.jpg" alt="Images" />
                                 </div>
-                                {/* Start Elements Area  */}
+                                {/* Start Elements Area  */ }
                                 <div className="rwt-counterup-area ptb--60">
                                     <div className="col-lg-12">
-                                        <CounterUpFour column="col-lg-3 col-md-6 col-sm-6 col-12" counterStyle="counter-style-4" textALign="text-center" />   
+                                        <CounterUpFour column="col-lg-3 col-md-6 col-sm-6 col-12" counterStyle="counter-style-4" textALign="text-center" />
                                     </div>
                                 </div>
-                                {/* End Elements Area  */}
+                                {/* End Elements Area  */ }
                             </div>
                         </div>
                     </div>
                 </div>
-                {/* End Counterup Area  */}
+                {/* End Counterup Area  */ }
 
                 <Separator />
 
-                {/* Start Service Area  */}
+                {/* Start Service Area  */ }
                 <div className="service-area rn-section-gapTop">
                     <div className="container">
                         <div className="row align-items-center">
@@ -96,43 +97,43 @@ const WebAgency = () => {
                         </div>
                     </div>
                 </div>
-                {/* End Service Area  */}
+                {/* End Service Area  */ }
 
-                {/* Start Service Area  */}
+                {/* Start Service Area  */ }
                 <div className="rn-service-area rn-section-gapTop">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "What we can do for you"
-                                    title = "Services provide for you."
-                                    description = ""
-                                    />
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="What we can do for you"
+                                    title="Services provide for you."
+                                    description=""
+                                />
                             </div>
                         </div>
-                        <ServiceOne 
-                            serviceStyle = "service__style--1 icon-circle-style"
-                            textAlign = "text-center"
-                            />
+                        <ServiceOne
+                            serviceStyle="service__style--1 icon-circle-style"
+                            textAlign="text-center"
+                        />
                     </div>
                 </div>
-                {/* End Service Area  */}
+                {/* End Service Area  */ }
 
                 <AboutFour image="./images/about/contact-image.jpg" />
 
-                {/* Start Elements Area  */}
+                {/* Start Elements Area  */ }
                 <div className="rwt-pricingtable-area rn-section-gapBottom">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Our Pricing Plan"
-                                    title = "Web Pricing Plan."
-                                    description = ""
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Our Pricing Plan"
+                                    title="Web Pricing Plan."
+                                    description=""
                                 />
                             </div>
                         </div>
@@ -143,19 +144,19 @@ const WebAgency = () => {
                         </div>
                     </div>
                 </div>
-                {/* End Elements Area  */}
+                {/* End Elements Area  */ }
 
-                {/* Start Brand Area  */}
+                {/* Start Brand Area  */ }
                 <div className="rwt-brand-area rn-section-gapBottom">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Our Awesome Client"
-                                    title = "Our Awesome Client."
-                                    description = ""
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Our Awesome Client"
+                                    title="Our Awesome Client."
+                                    description=""
                                 />
                             </div>
                         </div>
@@ -166,7 +167,7 @@ const WebAgency = () => {
                         </div>
                     </div>
                 </div>
-                {/* End Brand Area  */}
+                {/* End Brand Area  */ }
 
                 <FooterTwo />
                 <Copyright />

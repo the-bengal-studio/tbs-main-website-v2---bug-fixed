@@ -14,7 +14,8 @@ import BrandOne from "../elements/brand/BrandOne";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 
 
-const SeoAgency = () => {
+const SeoAgency = () =>
+{
     return (
         <>
             <SEO title="SEO Agency" />
@@ -22,7 +23,7 @@ const SeoAgency = () => {
                 <HeaderTopNews />
                 <HeaderOne btnStyle="btn-small btn-icon" HeaderSTyle="header-transparent" />
 
-                {/* Start Slider Area  */}
+                {/* Start Slider Area  */ }
                 <div className="slider-area slider-style-6 shape-right height-750">
                     <div className="container">
                         <div className="row row--30 align-items-center">
@@ -31,7 +32,7 @@ const SeoAgency = () => {
                                     <h1 className="title color-white">Trending <br />Business</h1>
                                     <p className="description color-white">We help our clients succeed by creating brand identities, digital experiences, and print materials.</p>
                                     <div className="button-group mt--30 mt_sm--20">
-                                        <a className="btn-default btn-medium btn-icon btn-border" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Purchase Now <i className="icon"><FiArrowRight /></i></a>
+                                        <a className="btn-default btn-medium btn-icon btn-border" target="_blank" href="https://thebengalstudio.com">Purchase Now <i className="icon"><FiArrowRight /></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -47,7 +48,7 @@ const SeoAgency = () => {
                         </div>
                     </div>
                 </div>
-                {/* End Slider Area  */}
+                {/* End Slider Area  */ }
                 <CalltoActionSix />
 
                 <Separator />
@@ -55,12 +56,12 @@ const SeoAgency = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                    <SectionTitle
-                                        textAlign = "text-center"
-                                        radiusRounded = ""
-                                        subtitle = "Timeline"
-                                        title = "Working Process."
-                                    />
+                                <SectionTitle
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Timeline"
+                                    title="Working Process."
+                                />
                             </div>
                         </div>
                         <div className="row">
@@ -73,39 +74,39 @@ const SeoAgency = () => {
 
                 <Separator />
                 <AboutTwo />
-                
+
                 <Separator />
-                {/* Start Elements Area  */}
+                {/* Start Elements Area  */ }
                 <div className="rwt-pricing-area rn-section-gap">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                    <SectionTitle
-                                        textAlign = "text-center"
-                                        radiusRounded = ""
-                                        subtitle = "Take a Pricing"
-                                        title = "Our Pricing Plan."
-                                        description = ""
-                                    />
+                                <SectionTitle
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Take a Pricing"
+                                    title="Our Pricing Plan."
+                                    description=""
+                                />
                             </div>
                         </div>
                         <PricingFive />
                     </div>
                 </div>
-                {/* End Elements Area  */}
+                {/* End Elements Area  */ }
 
                 <Separator />
-                {/* Start Brand Area  */}
+                {/* Start Brand Area  */ }
                 <div className="rwt-brand-area rn-section-gap">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Our Awesome Client"
-                                    title = "Our Awesome Clients."
-                                    description = ""
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Our Awesome Client"
+                                    title="Our Awesome Clients."
+                                    description=""
                                 />
                             </div>
                         </div>
@@ -116,7 +117,7 @@ const SeoAgency = () => {
                         </div>
                     </div>
                 </div>
-                {/* End Brand Area  */}
+                {/* End Brand Area  */ }
 
                 <FooterTwo />
                 <Copyright />

@@ -1,6 +1,6 @@
 import React from 'react';
 import SEO from "../common/SEO";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FiArrowRight, FiCheck } from "react-icons/fi";
 
 import HeaderOne from '../common/header/HeaderOne';
@@ -18,7 +18,8 @@ import BrandTwo from "../elements/brand/BrandTwo";
 
 
 
-const Company = () => {
+const Company = () =>
+{
     return (
         <>
             <SEO title="Company" />
@@ -26,7 +27,7 @@ const Company = () => {
                 <HeaderTopNews />
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
 
-                {/* Start Slider Area  */}
+                {/* Start Slider Area  */ }
                 <div className="slider-area slider-style-1 bg-transparent height-750">
                     <div className="container">
                         <div className="row align-items-center">
@@ -40,7 +41,7 @@ const Company = () => {
                                         <li><span className="icon"><FiCheck /></span> Your teams progress with mobile app.</li>
                                     </ul>
                                     <div className="button-group mt--40">
-                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Purchase Now <i className="icon"><FiArrowRight /></i></a>
+                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://thebengalstudio.com">Purchase Now <i className="icon"><FiArrowRight /></i></a>
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Contact Us <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
                                 </div>
@@ -53,9 +54,9 @@ const Company = () => {
                         </div>
                     </div>
                 </div>
-                {/* End Slider Area  */}
+                {/* End Slider Area  */ }
 
-                {/* Start Service Area  */}
+                {/* Start Service Area  */ }
                 <div className="service-area rn-section-gapBottom">
                     <div className="container">
                         <div className="row align-items-center">
@@ -73,32 +74,32 @@ const Company = () => {
                         </div>
                     </div>
                 </div>
-                {/* End Service Area  */}
+                {/* End Service Area  */ }
 
 
                 <Separator />
-                {/* Start Service Area  */}
+                {/* Start Service Area  */ }
                 <div className="rn-service-area rn-section-gap">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "What we can do for you"
-                                    title = "Services provide for you."
-                                    description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
-                                    />
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="What we can do for you"
+                                    title="Services provide for you."
+                                    description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                                />
                             </div>
                         </div>
 
-                        <ServiceOne 
-                            serviceStyle = "service__style--1 icon-circle-style"
-                            textAlign = "text-center"
-                            />
+                        <ServiceOne
+                            serviceStyle="service__style--1 icon-circle-style"
+                            textAlign="text-center"
+                        />
                     </div>
                 </div>
-                {/* End Service Area  */}
+                {/* End Service Area  */ }
 
                 <SlpitOne />
 
@@ -106,13 +107,13 @@ const Company = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                    <SectionTitle
-                                        textAlign = "text-center"
-                                        radiusRounded = ""
-                                        subtitle = "Our Project"
-                                        title = "Why People Choose Us!"
-                                        description = ""
-                                    />
+                                <SectionTitle
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Our Project"
+                                    title="Why People Choose Us!"
+                                    description=""
+                                />
                             </div>
                         </div>
                         <PortfolioOne Column="col-lg-6 col-md-6 col-sm-12 col-12 mt--50 portfolio" />
@@ -121,26 +122,26 @@ const Company = () => {
 
                 <Separator />
 
-                {/* Start Elements Area  */}
+                {/* Start Elements Area  */ }
                 <div className="rwt-team-area rn-section-gap">
                     <div className="wrapper plr--65">
                         <div className="row">
                             <div className="col-lg-12">
-                                    <SectionTitle
-                                        textAlign = "text-center"
-                                        radiusRounded = ""
-                                        subtitle = "Our Experts."
-                                        title = "Companies Team"
-                                        description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
-                                    />
+                                <SectionTitle
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Our Experts."
+                                    title="Companies Team"
+                                    description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                                />
                             </div>
                         </div>
                         <TeamFour column="col-lg-6 col-xl-3 col-md-6 col-12 mt--30" teamStyle="team-style-three" />
                     </div>
                 </div>
-                {/* End Elements Area  */}
+                {/* End Elements Area  */ }
 
-                {/* Start Brand Area  */}
+                {/* Start Brand Area  */ }
                 <div className="rwt-brand-area pb--80">
                     <div className="container">
                         <div className="row">
@@ -157,7 +158,7 @@ const Company = () => {
                         </div>
                     </div>
                 </div>
-                {/* End Brand Area  */}
+                {/* End Brand Area  */ }
                 <FooterTwo />
                 <Copyright />
             </main>

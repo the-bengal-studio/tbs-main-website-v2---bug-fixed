@@ -1,6 +1,6 @@
 import React from 'react'
 import SEO from "../common/SEO";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
 import HeaderTopNews from '../common/header/HeaderTopNews';
 import HeaderTwo from '../common/header/HeaderTwo';
@@ -13,11 +13,12 @@ import AboutThree from '../elements/about/AboutThree';
 import PricingThree from '../elements/pricing/PricingThree';
 import BlogList from "../components/blog/itemProp/BlogList";
 import BlogClassicData from '../data/blog/BlogList.json';
-var BlogListData = BlogClassicData.slice(0, 3);
+var BlogListData = BlogClassicData.slice( 0, 3 );
 
 
 
-const Business = () => {
+const Business = () =>
+{
     return (
         <>
             <SEO title="Business" />
@@ -25,7 +26,7 @@ const Business = () => {
                 <HeaderTopNews />
                 <HeaderTwo btnStyle="btn-small" HeaderSTyle="header-not-transparent" />
 
-                {/* Start Slider Area  */}
+                {/* Start Slider Area  */ }
                 <div className="slider-area slider-style-3 height-850">
                     <div className="container">
                         <div className="row row--30 align-items-center">
@@ -34,7 +35,7 @@ const Business = () => {
                                     <h1 className="title theme-gradient">Trending <br />Business</h1>
                                     <p className="description">We help our clients succeed by creating brand identities, digital experiences, and print materials.</p>
                                     <div className="button-group mt--30 mt_sm--20">
-                                        <a className="btn-default btn-medium btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Purchase Now <i className="icon"><FiArrowRight /></i></a>
+                                        <a className="btn-default btn-medium btn-icon" target="_blank" href="https://thebengalstudio.com">Purchase Now <i className="icon"><FiArrowRight /></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -46,46 +47,46 @@ const Business = () => {
                         </div>
                     </div>
                 </div>
-                {/* End Slider Area  */}
+                {/* End Slider Area  */ }
 
                 <Separator />
 
-                {/* Start Elements Area  */}
+                {/* Start Elements Area  */ }
                 <div className="rwt-tab-area rn-section-gap">
                     <div className="container">
                         <div className="row mb--40">
                             <div className="col-lg-12">
                                 <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Companies About."
-                                    title = "What About Our Companies."
-                                    description = "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Companies About."
+                                    title="What About Our Companies."
+                                    description="We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
                                 />
                             </div>
                         </div>
                         <TabOne />
                     </div>
                 </div>
-                {/* End Elements Area  */}
+                {/* End Elements Area  */ }
 
                 <Separator />
                 <div className="rwt-timeline-area rn-section-gap">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                    <SectionTitle
-                                        textAlign = "text-center"
-                                        radiusRounded = ""
-                                        subtitle = "Timeline"
-                                        title = "Working Process."
-                                        description = "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
-                                    />
+                                <SectionTitle
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Timeline"
+                                    title="Working Process."
+                                    description="We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+                                />
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-lg-10 offset-lg-1 mt--50">
-                                <TimelineTwo classVar="dark-line"  />
+                                <TimelineTwo classVar="dark-line" />
                             </div>
                         </div>
                     </div>
@@ -95,24 +96,24 @@ const Business = () => {
                 <AboutThree />
 
                 <Separator />
-                {/* Start Elements Area  */}
+                {/* Start Elements Area  */ }
                 <div className="rwt-pricing-area rn-section-gap">
                     <div className="container">
                         <div className="row mb--35">
                             <div className="col-lg-12">
                                 <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Our Pricing Plan"
-                                    title = "Business Pricing Plan."
-                                    description = "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Our Pricing Plan"
+                                    title="Business Pricing Plan."
+                                    description="We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
                                 />
                             </div>
                         </div>
                         <PricingThree />
                     </div>
                 </div>
-                {/* End Elements Area  */}
+                {/* End Elements Area  */ }
 
                 <Separator />
                 <div className="blog-area rn-section-gap">
@@ -120,26 +121,26 @@ const Business = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Latests News"
-                                    title = "Our Latest News."
-                                    description = "We provide company and finance service for <br /> startups and company business."
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Latests News"
+                                    title="Our Latest News."
+                                    description="We provide company and finance service for <br /> startups and company business."
                                 />
                             </div>
                         </div>
                         <div className="row row--15">
-                            {BlogListData.map((item) => (
-                                <div key={item.id} className="col-lg-4 col-md-6 col-12 mt--30">
-                                    <BlogList StyleVar="box-card-style-default" data={item} />
+                            { BlogListData.map( ( item ) => (
+                                <div key={ item.id } className="col-lg-4 col-md-6 col-12 mt--30">
+                                    <BlogList StyleVar="box-card-style-default" data={ item } />
                                 </div>
-                            ))}
+                            ) ) }
                         </div>
                     </div>
-                </div> 
+                </div>
                 <FooterThree />
             </main>
-            
+
         </>
     )
 }
